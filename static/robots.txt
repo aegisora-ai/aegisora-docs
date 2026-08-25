@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://docs.aegisora.ai/sitemap.xml
+Sitemap: https://docs.aegisora.org/sitemap.xml

@@ -6,7 +6,7 @@ Aegisora is a zero-trust runtime security and governance layer for autonomous AI
 
 ## Documentation
 
-**Live documentation:** https://docs.aegisora.ai
+**Live documentation:** https://docs.aegisora.org
 
 **Core runtime:** https://github.com/aegisora-ai/aegisora
 
