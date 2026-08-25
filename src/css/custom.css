@@ -1,0 +1,48 @@
+:root {
+  --ifm-color-primary: #3b82f6;
+  --ifm-color-primary-dark: #2563eb;
+  --ifm-color-primary-darker: #1d4ed8;
+  --ifm-color-primary-light: #60a5fa;
+  --ifm-color-primary-lighter: #93c5fd;
+  --ifm-background-color: #f8fafc;
+  --ifm-background-surface-color: #ffffff;
+  --ifm-code-font-size: 92%;
+}
+
+[data-theme="dark"] {
+  --ifm-background-color: #07111f;
+  --ifm-background-surface-color: #0b1728;
+  --ifm-navbar-background-color: #07111f;
+  --ifm-footer-background-color: #050b14;
+  --ifm-color-primary: #60a5fa;
+  --ifm-color-primary-dark: #3b82f6;
+  --ifm-color-primary-darker: #2563eb;
+  --ifm-color-primary-light: #93c5fd;
+  --ifm-color-primary-lighter: #bfdbfe;
+  --ifm-font-color-base: #d7e3f4;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(148, 163, 184, 0.14);
+}
+
+.navbar__title {
+  letter-spacing: 0.12em;
+  font-weight: 800;
+}
+
+.theme-doc-markdown h1 {
+  letter-spacing: -0.025em;
+}
+
+.theme-doc-markdown code {
+  border-radius: 6px;
+}
+
+.theme-doc-sidebar-container {
+  border-right-color: rgba(148, 163, 184, 0.12) !important;
+}
+
+.footer--dark {
+  background: #050b14;
+}
