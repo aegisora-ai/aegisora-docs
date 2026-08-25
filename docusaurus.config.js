@@ -3,7 +3,7 @@ const config = {
   tagline: "Zero-trust security and governance for autonomous AI agents.",
   favicon: "img/favicon.svg",
 
-  url: "https://docs.aegisora.ai",
+  url: "https://docs.aegisora.org",
   baseUrl: "/",
   trailingSlash: false,
 
@@ -24,7 +24,7 @@ const config = {
       tagName: "link",
       attributes: {
         rel: "canonical",
-        href: "https://docs.aegisora.ai/",
+        href: "https://docs.aegisora.org/",
       },
     },
   ],
@@ -115,11 +115,11 @@ const config = {
       },
       {
         property: "og:url",
-        content: "https://docs.aegisora.ai/",
+        content: "https://docs.aegisora.org/",
       },
       {
         property: "og:image",
-        content: "https://docs.aegisora.ai/img/aegisora-social.svg",
+        content: "https://docs.aegisora.org/img/aegisora-social.svg",
       },
       {
         name: "twitter:card",
@@ -136,7 +136,7 @@ const config = {
       },
       {
         name: "twitter:image",
-        content: "https://docs.aegisora.ai/img/aegisora-social.svg",
+        content: "https://docs.aegisora.org/img/aegisora-social.svg",
       },
     ],
 
