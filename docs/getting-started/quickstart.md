@@ -1,21 +1,30 @@
 # Quickstart
 
-The Aegisora quickstart demonstrates the smallest complete governance flow.
+## Clone
 
-```text
-Agent
-  |
-  v
-Request
-  |
-  v
-Governance Runtime
-  |
-  v
-Decision
-  |
-  v
-Execution
-```
+``bash
+git clone https://github.com/aegisora-ai/aegisora.git
+cd aegisora
+``
 
-The final quickstart should always point to a maintained executable example.
+## Install
+
+``bash
+pnpm install
+``
+
+## Verify
+
+``bash
+pnpm build
+pnpm typecheck
+pnpm test
+``
+
+## LangGraph example
+
+``bash
+pnpm --filter @aegisora/example-langgraph-agent-governance test
+``
+
+Expected: STATUS=SUCCESS and EXAMPLE_RESULT=PASS.

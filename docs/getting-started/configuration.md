@@ -1,9 +1,16 @@
 # Configuration
 
-Configuration covers runtime behavior, policies, providers, logging, and environment variables.
+Configuration is part of the governance boundary.
+
+## Rules
+
+- Keep credentials outside source control.
+- Keep provider configuration separate from policy configuration.
+- Version important governance configuration.
+- Prefer reproducible environments.
 
 ## Secrets
 
-Never commit API keys or other credentials.
+Use local environment configuration or your deployment platform secret manager.
 
-Use local environment configuration for development secrets.
+Never commit real credentials.

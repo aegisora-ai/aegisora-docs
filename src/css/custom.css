@@ -46,3 +46,27 @@
 .footer--dark {
   background: #050b14;
 }
+.aegisora-404 {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1rem;
+}
+
+.aegisora-404-card {
+  max-width: 720px;
+  text-align: center;
+  padding: 3rem;
+  border: 1px solid rgba(96, 165, 250, 0.16);
+  border-radius: 18px;
+  background: var(--ifm-background-surface-color);
+}
+
+.aegisora-404-code {
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+}

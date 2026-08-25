@@ -1,9 +1,19 @@
 # Installation
 
-Installation instructions are maintained against the released Aegisora runtime.
-
-For the canonical implementation and package information, see the [Aegisora core repository](https://github.com/aegisora-ai/aegisora).
+Aegisora is maintained as an open-source repository with a pnpm-based developer workflow.
 
 ## Requirements
 
-Supported runtime and package-manager requirements should always be taken from the current release documentation.
+| Tool | Baseline |
+| --- | --- |
+| Node.js | 24.x |
+| pnpm | 11.20.0 |
+| Git | Current |
+| Aegisora | v0.1.2 |
+
+## Clone
+
+``bash
+git clone https://github.com/aegisora-ai/aegisora.git
+cd aegisora
+``
