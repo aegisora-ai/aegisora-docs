@@ -10,7 +10,7 @@ This is the clean-clone path for developers and engineering teams.
 ## Prerequisites
 
 - Git
-- Node.js 22 or newer (the Security Readiness workflow runs on Node 24)
+- Node.js 22 or newer (CI runs on Node 22; the release and Security Readiness workflows run on Node 24)
 - pnpm 11.20.0
 
 ## Install, build, typecheck and test
@@ -40,6 +40,8 @@ Expected result:
 STATUS=SUCCESS
 EXAMPLE_RESULT=PASS
 ~~~
+
+This example shows the SDK wired into a LangGraph node. It calls `Aegisora.protect`, which wraps the agent's `run` and does not evaluate policy, so the example does not exercise the enforcement gate. See [Concepts](./concepts.md) and [Packages](./packages.md).
 
 ## Decisions at the provider boundary
 

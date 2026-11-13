@@ -16,13 +16,13 @@ Aegisora is a runtime governance layer that evaluates and enforces agent actions
 - [Getting Started](./getting-started/)
 - [Architecture](./architecture/)
 - [Security](./security/)
-- [Governance](./governance/)
-- [Policies](./policies/)
-- [Integrations](./integrations/)
-- [SDK](./sdk/)
-- [API Reference](./api/)
-- [Examples](./examples/)
-- [Reference](./reference/)
+- [Governance](./governance/index.md)
+- [Policies](./policies/index.md)
+- [Integrations](./integrations/index.md)
+- [SDK](./sdk/index.md)
+- [API Reference](./api/index.md)
+- [Examples](./examples/index.md)
+- [Reference](./reference/index.md)
 
 ## Governance pipeline
 

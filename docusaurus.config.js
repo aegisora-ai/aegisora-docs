@@ -54,15 +54,15 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           showLastUpdateTime: true,
           showLastUpdateAuthor: false,
-          lastVersion: "0.1.2",
+          lastVersion: "current",
           versions: {
-            "0.1.2": {
-              label: "v0.1.2",
+            current: {
+              label: "4.5",
               banner: "none",
             },
-            current: {
-              label: "Next",
-              banner: "unreleased",
+            "0.1.2": {
+              label: "v0.1.2",
+              banner: "unmaintained",
             },
           },
         },
@@ -178,25 +178,25 @@ const config = {
         {
           title: "Learn",
           items: [
-            { label: "Getting Started", to: "/getting-started/" },
-            { label: "Architecture", to: "/architecture/" },
-            { label: "Security", to: "/security/" },
-            { label: "Governance", to: "/governance/" },
+            { label: "Getting Started", to: "/getting-started" },
+            { label: "Architecture", to: "/architecture" },
+            { label: "Security", to: "/security" },
+            { label: "Concepts", to: "/concepts" },
           ],
         },
         {
           title: "Build",
           items: [
-            { label: "Integrations", to: "/integrations/" },
-            { label: "SDK", to: "/sdk/" },
-            { label: "API", to: "/api/" },
-            { label: "Examples", to: "/examples/" },
+            { label: "Providers", to: "/providers" },
+            { label: "Packages", to: "/packages" },
+            { label: "Configuration", to: "/configuration" },
+            { label: "Testing", to: "/testing" },
           ],
         },
         {
           title: "Project",
           items: [
-            { label: "Releases", to: "/releases/" },
+            { label: "Release 4.5.0", to: "/release-4-5-0" },
             { label: "Contributing", href: "https://github.com/aegisora-ai/aegisora/blob/main/CONTRIBUTING.md" },
             { label: "Security Policy", href: "https://github.com/aegisora-ai/aegisora/blob/main/SECURITY.md" },
             {
