@@ -1,54 +1,27 @@
 ---
-sidebar_position: 1
 slug: /
-title: Aegisora Documentation
-description: Zero-trust security and governance for autonomous AI agents.
+sidebar_position: 1
+title: Aegisora 4.5
 ---
 
-# Aegisora
+# Aegisora 4.5
 
-## Zero-trust security and governance for autonomous AI agents.
+Aegisora is a runtime governance layer for AI agents. Before a governed action reaches a tool, provider or API, it is evaluated and ends in one of three decisions: ALLOW, BLOCK or ESCALATE. Each decision is recorded as audit evidence.
 
-Aegisora is a runtime governance layer that evaluates and enforces agent actions before they cross protected execution boundaries.
+This site documents release 4.5.0. Statements are checked against the source in the main repository at https://github.com/aegisora-ai/aegisora, and limits are stated next to the behavior they apply to.
 
-## Start building
+## Where to start
 
-- [Getting Started](./getting-started/)
-- [Architecture](./architecture/)
-- [Security](./security/)
-- [Governance](./governance/)
-- [Policies](./policies/)
-- [Integrations](./integrations/)
-- [SDK](./sdk/)
-- [API Reference](./api/)
-- [Examples](./examples/)
-- [Reference](./reference/)
+- [Getting started](./getting-started.md): install, build and test from a clean clone.
+- [Concepts](./concepts.md): the three decisions, escalation and separation of duties.
+- [Architecture](./architecture.md): the execution boundary and the enforcement path.
+- [Packages](./packages.md): the workspace packages and what each one exports.
+- [Configuration](./configuration.md): every environment variable the source reads.
+- [Providers](./providers.md): which provider adapters exist and what is validated.
+- [Security](./security.md): where the threat model and evidence live, and the known limits.
+- [Testing](./testing.md): the default suite and the live provider suite.
+- [Release 4.5.0](./release-4-5-0.md) and the [FAQ](./faq.md).
 
-## Governance pipeline
+## What this site does not claim
 
-```mermaid
-flowchart TD
-    A[Agent Action] --> B[Context Resolution]
-    B --> C[Identity + Access]
-    C --> D[Security Analysis]
-    D --> E[Policy Evaluation]
-    E --> F[Risk Analysis]
-    F --> G{Decision}
-    G -->|ALLOW| H[Protected Execution]
-    G -->|BLOCK| I[Stop]
-    G -->|ESCALATE| J[Review]
-    H --> K[Audit Evidence]
-    I --> K
-    J --> K
-```
-
-## Ecosystem
-
-| Layer | Role |
-| --- | --- |
-| Aegisora Runtime | Security, governance, policy, risk, decisions, enforcement. |
-| Agent Framework | Orchestration and workflow execution. |
-| Model Provider | Model inference and generation. |
-| Tools / APIs | External execution surfaces governed by Aegisora. |
-
-Aegisora is designed to work with the AI stack developers already use rather than replace it.
+Aegisora is not SOC 2, ISO 27001 or HIPAA certified. Container images, Helm charts and Terraform modules are not part of the repository yet.
